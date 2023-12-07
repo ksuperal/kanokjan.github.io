@@ -1,4 +1,5 @@
 {
+  "homepage": "http://ksuperal.github.io/kanokjan.github.io",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -9,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
