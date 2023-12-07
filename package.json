@@ -1,5 +1,5 @@
 {
-  "homepage": "http://ksuperal.github.io/kanokjan.github.io",
+  "homepage": "http://ksuperal.github.io/kanokjan.github.io/Portfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "deploy":"gh-pages -d dist",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
